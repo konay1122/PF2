@@ -13,13 +13,12 @@ def is_enabled(value, default):
     
 class Config:
 
-    PORT = environ.get("PORT", "9007")
+    PORT = environ.get("PORT", "9017")
     SESSION = environ.get('SESSION', 'Media_search')
 
-    API_ID = int(environ.get('API_ID', '7685644'))
-    API_HASH = environ.get('API_HASH', 'a713f30f5a21716e6bff334e8ac19b17')
-    BOT_TOKEN = environ.get('BOT_TOKEN', "6692721957:AAENAv-Fj1E8Yky__Kb1N9TfArUHLIs0RbI")
-
+    API_ID = int(environ.get('API_ID', '12158462'))
+    API_HASH = environ.get('API_HASH', '0b962717d931f4480c46d56c85d409a5')
+    BOT_TOKEN = environ.get('BOT_TOKEN', "5717353107:AAHgt3C4R4EpgL7cCPpBo39i45BEej_TjQo")
 
     CACHE_TIME = int(environ.get('CACHE_TIME', 300))
     USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -34,13 +33,13 @@ class Config:
     SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/84456e65e151e15580ed4.jpg")
 
 
-    ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1854576276 1457995605').split()]
+    ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1348153685').split()]
     
     CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-    auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1457995605').split()]
+    auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1348153685').split()]
     AUTH_USERS = (auth_users + ADMINS) if auth_users else []
     
-    auth_channel = environ.get('AUTH_CHANNEL', "")
+    auth_channel = environ.get('AUTH_CHANNEL', "-1001696328436")
     auth_grp = environ.get('AUTH_GROUP')
     AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
     AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -52,14 +51,14 @@ class Config:
 
 
 
-    DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nas20221996:nayaungsoe14@cluster0.pgedpqc.mongodb.net/?retryWrites=true&w=majority")
-    DATABASE_NAME = environ.get('DATABASE_NAME', "RMC")
-    DATABASE_NAME2 = environ.get('DATABASE_NAME2', "RMC2")
+    DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vipseriesfilter:vipseriesfilter@vipseriesfilter.fubxjlh.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_NAME = environ.get('DATABASE_NAME', "YNCH1")
+    DATABASE_NAME2 = environ.get('DATABASE_NAME2', "YNCH2")
     COLLECTION_NAME = environ.get('COLLECTION_NAME', 'CHANNEL')
     COLLECTION_NAME2 = environ.get('COLLECTION_NAME2', 'DM FILE')
 
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001917003256' ))
-    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RMC_Telegram')
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001816794943' ))
+    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'YNmovieone')
 
     DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
     MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -103,21 +102,6 @@ class Config:
 
 🍓 Instock Mini Dress Collection 🍓
 
-ဈေးနှုန်း 11,500 မှ စပြီး ဝယ်ယူလို့ ရပါတယ်ရှင့်။
 
-Design သစ်တင်တိုင်း အချိန်နဲ့ တစ်ပြေးညီ သိရှိနိုင်ရန် 😁❤️
-Susan's Closet ရဲ့Telegram Channel ကိုလဲ ဝင်ရောက် Join ထားပေးကြဖို့ ဖိတ်ခေါ်ပါရစေနော်... 😊
-
-Join our telegram channel here!!👇👇 
-https://t.me/susancloset
-
-Messenger မှ မှာယူရန် m.me/susanclosetonlineshop 
-Telegram မှ မှာယူရန် @susanclosetdm
-Viber 09790600164 
-
-ရန်ကုန်၊မန္တလေး၊နေပြည်တော် ပစ္စည်းရောက် ငွေချေ ( cash on delivery ) ရပါတယ်ရှင်။
-
-     [Click Here For VIP Member](t.me/vip_subscribe_rmc_bot) 
-     [N.A.S](t.me/nas0055)
 """
     
