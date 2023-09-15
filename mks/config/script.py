@@ -43,15 +43,15 @@ Contact :- @nas0055
 😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @nas0055"""
 
 
-    VIP_LINK = "https://t.me/vip_subscribe_rmc_bot"
+    VIP_LINK = "https://t.me/YN_VIP_Series_ListAndPoster"
     
-    ALL_LINK = "https://t.me/RMC_Telegram"
+    ALL_LINK = "https://t.me/YNmovieone/7324"
     
-    CH_LINK = "https://t.me/RMC_Telegram"
+    CH_LINK = "https://t.me/YNMovie_SeriesBank"
     
-    GP_LINK = "https://t.me/+HPXE9t6rejEzNDll"
-    
-    SUPPORT_LINK = "https://t.me/+HPXE9t6rejEzNDll"
+    GP_LINK = "https://t.me/+XTScHquCH0A0ZTQ1"
+
+    SUPPORT_LINK = "https://t.me/+XTScHquCH0A0ZTQ1"
 
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
